@@ -12,5 +12,4 @@
 
 ### Data Scientists 
 #### Christoper Keddie || Trihao Van
-#### This aplication utilises OpenAi davinci-002
 
