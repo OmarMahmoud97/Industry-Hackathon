@@ -1,0 +1,50 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/mixin" as *;
+
+.mission {
+  height: 80vh;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &__item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 4rem;
+    width: 50%;
+  }
+
+  &__top {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+
+  &__bottom {
+    margin-top: 3rem;
+  }
+
+  &__item-header {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  &__item-text {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
