@@ -1,0 +1,40 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/mixin" as *;
+
+.navbar {
+  width: 100%;
+  background-color: $primary-one;
+  height: rem;
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  &__section {
+    display: flex;
+  }
+  &__item {
+    margin: 0 1rem;
+    color: white;
+    font-size: 1rem;
+  }
+
+  &__logo {
+    color: white;
+    font-size: 3rem;
+  }
+  &__button {
+    background-color: $primary-two;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.7rem;
+    color: white;
+    font-size: 1rem;
+  }
+}
