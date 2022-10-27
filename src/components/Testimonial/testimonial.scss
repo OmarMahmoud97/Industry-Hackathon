@@ -1,0 +1,45 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/mixin" as *;
+
+.testimonial {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  &__container {
+    padding: 8rem 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__subtitle {
+    color: $secondary-grey;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+  }
+
+  &__title {
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  &__rating-stars {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+
+  &__quote {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $secondary-grey;
+  }
+}

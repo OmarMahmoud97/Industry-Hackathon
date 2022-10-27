@@ -6,6 +6,7 @@ import Testimonial from "./components/Testimonial/testimonial";
 import PageTwo from "./components/PageTwo/pageTwo";
 import Mission from "./components/Mission/mission";
 import Phone from "./components/Phone/phone";
+import Blog from "./components/Blog/blog";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <PageTwo />
       <Mission />
       <Phone />
+      <Blog />
       <Testimonial />
       <Footer />
     </div>

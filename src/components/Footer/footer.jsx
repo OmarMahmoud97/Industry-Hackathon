@@ -5,7 +5,10 @@ const footer = () => {
     <section className="footer">
       <div className="footer__container">
         <div className="footer__wrapper">
-          <div className="footer__logo">Logo Ipsum</div>
+          <div className="footer__logo">
+            {" "}
+            <img src="" alt="img" />
+          </div>
           <div className="footer__description">
             Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Integer
             gravida vitae ultrices urna et porttitor malesuada.
