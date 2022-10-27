@@ -1,0 +1,38 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/mixin" as *;
+
+.footer {
+  background-color: $primary-four;
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    display: flex;
+    padding: 2rem 0;
+    width: 80%;
+  }
+
+  &__wrapper {
+    width: 25%;
+    padding: 2rem;
+  }
+
+  &__description {
+    padding: 1rem 0;
+  }
+
+  &__phone,
+  &__email,
+  &__address {
+    display: flex;
+  }
+
+  &__icon {
+    width: 30%;
+  }
+
+  &__address-text {
+    width: 70%;
+  }
+}
