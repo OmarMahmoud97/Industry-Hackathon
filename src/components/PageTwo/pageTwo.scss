@@ -1,0 +1,47 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/breakpoints" as *;
+@use "../../styles/partials/mixin" as *;
+
+.pageTwo {
+  margin-top: 3rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  &__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__subheader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: #666666;
+  }
+  &__subheader-text {
+    width: 50%;
+    text-align: center;
+  }
+  &__stats {
+    width: 80%;
+    height: 20rem;
+    background-color: #b6b6b6;
+    margin: 0 auto;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__stats-item {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
