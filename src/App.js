@@ -1,6 +1,11 @@
 import "./styles/partials/_resets.scss";
+import Navbar from "./components/Navbar/navbar";
 function App() {
-  return <div className="App">welcome to the industry project</div>;
+  return (
+    <div className="App">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
