@@ -1,0 +1,44 @@
+.phone {
+  height: 90vh;
+
+  &__bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 1) 50%,
+      rgba(189, 189, 189, 1) 50%
+    );
+  }
+
+  &__phone {
+    width: 250px;
+    height: 450px;
+    background-color: grey;
+    border-radius: 1rem;
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+  }
+  &__subheader {
+    margin-bottom: 1rem;
+  }
+  &__text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40%;
+    width: 80%;
+  }
+}
