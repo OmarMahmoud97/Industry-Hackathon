@@ -30,8 +30,18 @@ const footer = () => {
         </div>
         <div className="footer__wrapper">
           <div className="footer__column-header">Recent Post</div>
-          <div className="footer__blog-post"></div>
-          <div className="footer__blog-post"></div>
+          <div className="footer__blog-post">
+            <div className="footer__icon">Icon</div>
+            <div className="footer__address-text">
+              The EU needs to hold the financial sector in global deforestation
+            </div>
+          </div>
+          <div className="footer__blog-post">
+            <div className="footer__icon">Icon</div>
+            <div className="footer__address-text">
+              The EU needs to hold the financial sector in global deforestation
+            </div>
+          </div>
         </div>
         <div className="footer__wrapper">
           <div className="footer__column-header">Join a Newsletter</div>
@@ -44,7 +54,7 @@ const footer = () => {
               type="text"
               placeholder="Enter Your Email"
             />
-            <button className="footer__button">Submit</button>
+            <button className="footer__button">Subscribe</button>
           </div>
         </div>
       </div>
