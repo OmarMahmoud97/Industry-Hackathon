@@ -1,6 +1,9 @@
 import "./results.scss";
 import graph from "../../assets/images/graph2.png";
+import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
 const Results = () => {
+  // const navigate = useNavigate;
   return (
     <section className="results">
       <div className="results__landing">
@@ -20,7 +23,9 @@ const Results = () => {
         </div>
         <div className="results__buttons">
           <button className="results__btn-left">Learn More</button>
-          <button className="results__btn-right">Next</button>
+          <Link to="/recommendations" className="results__btn-right">
+            Next
+          </Link>
         </div>
       </div>
     </section>
