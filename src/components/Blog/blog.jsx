@@ -1,7 +1,21 @@
 import React from "react";
 import "./blog.scss";
-
+import axios from "axios";
 const blog = () => {
+  // const axios = require("axios");
+  // const news = {
+  //    "https://climate-change-news.herokuapp.com/news",
+  // };
+
+  // axios
+  //   .get(https://climate-change-news.herokuapp.com/news[, config])
+  //   .then(function (response) {
+  //     console.log(response.data);
+  //   })
+  //   .catch(function (error) {
+  //     console.error(error);
+  //   });
+
   return (
     <section className="blog">
       <div className="blog__container">
