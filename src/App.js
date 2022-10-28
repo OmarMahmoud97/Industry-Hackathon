@@ -7,17 +7,19 @@ import PageTwo from "./components/PageTwo/pageTwo";
 import Mission from "./components/Mission/mission";
 import Phone from "./components/Phone/phone";
 import Blog from "./components/Blog/blog";
+import Results from "./components/Results/results";
 
 function App() {
   return (
     <div className="App">
-      <Landing />
+      {/* <Landing />
       <PageTwo />
       <Mission />
       <Phone />
       <Blog />
       <Testimonial />
-      <Footer />
+      <Footer /> */}
+      <Results />
     </div>
   );
 }

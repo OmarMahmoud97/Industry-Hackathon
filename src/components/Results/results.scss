@@ -1,3 +1,81 @@
 @use "../../styles/partials/variables" as *;
 @use "../../styles/partials/breakpoints" as *;
 @use "../../styles/partials/mixin" as *;
+
+.results {
+  background-color: #005544;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  &__landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+  }
+  &__weight,
+  &__title {
+    color: white;
+    text-align: center;
+  }
+
+  &__weight {
+    font-size: 4rem;
+  }
+  &__co2 {
+    color: #23a5d9;
+  }
+  &__bottom {
+    height: 70%;
+    background-color: white;
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  &__bottom-header {
+    font-size: 2rem;
+    padding: 1rem;
+    color: #001768;
+    font-weight: bold;
+  }
+  &__graph {
+    object-fit: cover;
+    width: 100%;
+  }
+  &__graph-img {
+    object-fit: cover;
+    width: 100%;
+  }
+  &__buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  &__btn-left,
+  &__btn-right {
+    width: 12rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-color: transparent;
+  }
+  &__btn-left {
+    background-color: white;
+    color: #005544;
+    border: 1px solid #005544;
+  }
+
+  &__btn-right {
+    color: white;
+    background-color: #005544;
+  }
+}
